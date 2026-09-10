@@ -25,7 +25,7 @@ def run_training(lr, dim, depth, heads, mlpdim):
     else:
         print("GPU not available, using CPU")
 
-    input_path = f'/home/anonymous/dataset/{args.dataset}_MST/'
+    input_path = f'/home/qianwei/dataset/{args.dataset}_MST/'
 
     TRAIN_CHK_PATH = f"./Checkpoint/{args.dataset}/train"
     BEST_CHK_PATH = f"./Checkpoint/{args.dataset}/best"
