@@ -174,23 +174,23 @@ def cross_train_test_split(dataset_type):
 
     # cross dataset testing from UBFC to PURE
     if dataset_type == "UBFC2PURE":
-        train_list = glob.glob(os.path.join('/home/anonymous/dataset/UBFC_MST/','*'))
-        test_list = glob.glob(os.path.join('/home/anonymous/dataset/PURE_MST/','*'))
+        train_list = glob.glob(os.path.join('/home/qianwei/dataset/UBFC_MST/','*'))
+        test_list = glob.glob(os.path.join('/home/qianwei/dataset/PURE_MST/','*'))
 
     # cross dataset testing from UBFC to MMPD
     elif dataset_type == "UBFC2MMPD":
-        train_list = glob.glob(os.path.join('/home/anonymous/dataset/UBFC_MST/','*'))
-        test_list = glob.glob(os.path.join('/home/anonymous/dataset/MMPD_MST/','*'))
+        train_list = glob.glob(os.path.join('/home/qianwei/dataset/UBFC_MST/','*'))
+        test_list = glob.glob(os.path.join('/home/qianwei/dataset/MMPD_MST/','*'))
 
     # cross dataset testing from PURE to UBFC
     elif dataset_type == "PURE2UBFC":
-        train_list = glob.glob(os.path.join('/home/anonymous/dataset/PURE_MST/','*'))
-        test_list = glob.glob(os.path.join('/home/anonymous/dataset/UBFC_MST/','*'))
+        train_list = glob.glob(os.path.join('/home/qianwei/dataset/PURE_MST/','*'))
+        test_list = glob.glob(os.path.join('/home/qianwei/dataset/UBFC_MST/','*'))
 
     # cross dataset testing from PURE to MMPD
     elif dataset_type == "PURE2MMPD":
-        train_list = glob.glob(os.path.join('/home/anonymous/dataset/PURE_MST/','*'))
-        test_list = glob.glob(os.path.join('/home/anonymous/dataset/MMPD_MST/','*'))
+        train_list = glob.glob(os.path.join('/home/qianwei/dataset/PURE_MST/','*'))
+        test_list = glob.glob(os.path.join('/home/qianwei/dataset/MMPD_MST/','*'))
     
 
     # MSTmap for UBFC_MST
